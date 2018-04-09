@@ -5,7 +5,10 @@ import styles from './styles';
 const Intro = () => {
   return(
     <div style={styles.container}>
-      hi
+      <div style={styles.text}>
+        Hello, I'm Kevin Yonzon.<br></br>
+        I'm a full-stack web developer.
+      </div>
     </div>
   )
 };
