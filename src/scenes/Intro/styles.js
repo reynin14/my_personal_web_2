@@ -1,11 +1,13 @@
 const container = {
-	flex: 1,
 	alignItems: 'center',
 	justifyContent: 'center',
+	backgroundColor: 'red',
+	height: '100vh',
+	width: '100vw',
 };
 
 const styles = {
-	container
-};
+  container,
+}
 
 export default styles;
