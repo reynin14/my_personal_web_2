@@ -2,7 +2,7 @@ const container = {
 	display: 'flex',
 	alignItems: 'center',
 	justifyContent: 'center',
-	backgroundColor: 'red',
+	backgroundColor: '#1ae4de',
 	height: '100vh',
 	width: '100vw',
 };
