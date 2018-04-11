@@ -5,10 +5,10 @@ import styles from './styles';
 const Navbar = () => {
   return(
     <div style={styles.container}>
-      <div>Home</div>
-      <div>About</div>
-      <div>Portfolio</div>
-      <div>Contact</div>
+      <div style={styles.navButton}>Home</div>
+      <div style={styles.navButton}>About</div>
+      <div style={styles.navButton}>Portfolio</div>
+      <div style={styles.navButton}>Contact</div>
     </div>
   )
 }
