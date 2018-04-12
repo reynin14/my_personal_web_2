@@ -5,6 +5,7 @@ import { Container } from './components/container';
 import { Home } from './scenes/Home';
 import { About } from './scenes/About';
 import { Portfolio } from './scenes/Portfolio';
+import { Contact } from './scenes/Contact';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
         <Home />
         <About />
         <Portfolio />
+        <Contact />
       </Container>
     );
   }
