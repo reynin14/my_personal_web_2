@@ -1,8 +1,8 @@
 const container = {
   display: 'flex',
-  margin: '20px',
   position: 'sticky',
-  top: 0
+  top: 0,
+  backgroundColor: '#ab15d1'
 }
 
 const navButton = {
