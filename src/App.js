@@ -8,6 +8,8 @@ import { About } from './scenes/About';
 import { Portfolio } from './scenes/Portfolio';
 import { Contact } from './scenes/Contact';
 
+import { Navbar } from './components/navbar/';
+
 class App extends Component {
 
   componentDidMount() {
@@ -25,7 +27,7 @@ class App extends Component {
         <section>
           <Home scrollToAbout={this.scrollToAbout} />
         </section>
-
+        <Navbar />
         <section ref={(section) => { this.About = section; }}>
           <About />
         </section>
