@@ -5,7 +5,7 @@ const container = {
 };
 
 const styles = {
-	container
+	container,
 };
 
 export default styles;
