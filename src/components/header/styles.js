@@ -1,6 +1,9 @@
 const container = {
   display: 'flex',
   flexDirection: 'column',
+  justifyContent: 'center',
+  alignItems: 'center',
+  backgroundColor: 'yellow',
 };
 
 const header = {

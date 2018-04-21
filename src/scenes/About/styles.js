@@ -3,6 +3,8 @@ const container = {
   width: '100vw',
   backgroundColor: '#e0ae15',
   display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
 }
 
 const infoContainer = {
@@ -14,13 +16,22 @@ const infoContainer = {
 const bio = {
   display: 'flex',
   textAlign: 'justify',
-  margin: '10px'
+  margin: '10px',
+  height: '40vh',
+  backgroundColor: 'yellow',
+}
+
+const techSkills = {
+  margin: '10px',
+  height: '40vh',
+  backgroundColor: 'yellow'
 }
 
 const styles = {
   container,
   infoContainer,
   bio,
+  techSkills,
 };
 
 export default styles;
