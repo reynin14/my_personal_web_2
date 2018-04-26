@@ -7,7 +7,7 @@ const Home = ({scrollToAbout}) => {
   return(
     <div style={styles.container}>
       <div style={styles.text}>
-        Hello, I'm Kevin Yonzon.<br></br>
+        Hello, I'm <span style={styles.name}><b>Kevin Yonzon</b></span>.<br></br>
         I'm a full-stack web developer.
       </div>
       <button onClick={scrollToAbout}>View My Work</button>

@@ -11,12 +11,19 @@ const container = {
 const text = {
 	color: 'white',
 	backgroundColor: 'blue',
-	textAlign: 'center'
+	textAlign: 'center',
+	fontFamily: 'Raleway',
+	fontSize: '6vh',
+}
+
+const name = {
+	color: 'red',
 }
 
 const styles = {
   container,
 	text,
+	name,
 }
 
 export default styles;

@@ -8,7 +8,8 @@ const container = {
 
 const header = {
   fontSize: '4vh',
-  top: '1vh'
+  top: '1vh',
+  fontFamily: 'Raleway'
 };
 
 const underline = {
