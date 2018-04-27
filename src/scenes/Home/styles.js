@@ -1,3 +1,5 @@
+import space from './images/space.gif';
+
 const container = {
 	display: 'flex',
 	flexDirection: 'column',
@@ -6,6 +8,10 @@ const container = {
 	backgroundColor: '#1ae4de',
 	height: '100vh',
 	width: '100vw',
+	backgroundImage: `url(${space})`,
+	backgroundRepeat: 'no-repeat',
+	backgroundSize: 'cover',
+	backgroundPosition: 'center',
 };
 
 const text = {
