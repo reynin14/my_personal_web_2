@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import scrollToComponent from 'react-scroll-to-component';
 
 import { Container } from './components/container';
+import { Navbar } from './components/navbar/';
 
 import { Home } from './scenes/Home';
 import { About } from './scenes/About';
 import { Portfolio } from './scenes/Portfolio';
 import { Contact } from './scenes/Contact';
-
-import { Navbar } from './components/navbar/';
 
 class App extends Component {
 
@@ -18,7 +17,7 @@ class App extends Component {
 
   scrollToAbout = () => {
     console.log('scrolling to about');
-    scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1500})
+    scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1000})
   }
 
   render() {

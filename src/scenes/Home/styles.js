@@ -16,20 +16,26 @@ const container = {
 
 const text = {
 	color: 'white',
-	backgroundColor: 'blue',
 	textAlign: 'center',
 	fontFamily: 'Raleway',
 	fontSize: '6vh',
+	lineHeight: '1',
+	padding: '10px'
 }
 
 const name = {
 	color: 'red',
 }
 
+const icon = {
+	marginLeft: '10px'
+}
+
 const styles = {
   container,
 	text,
 	name,
+	icon
 }
 
 export default styles;
