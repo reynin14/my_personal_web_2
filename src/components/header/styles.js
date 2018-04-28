@@ -4,16 +4,19 @@ const container = {
   justifyContent: 'center',
   alignItems: 'center',
   backgroundColor: 'yellow',
+  lineHeight: 1
 };
 
 const header = {
-  fontSize: '4vh',
+  fontFamily: 'Raleway',
+  fontSize: '5vh',
+  fontWeight: 'bold',
   top: '1vh',
-  fontFamily: 'Raleway'
 };
 
 const underline = {
-  fontSize: '3vh'
+  fontFamily: 'Raleway',
+  fontSize: '5vh',
 }
 
 const styles = {
