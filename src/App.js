@@ -16,23 +16,46 @@ class App extends Component {
   }
 
   scrollToAbout = () => {
-    console.log('scrolling to about');
     scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1000})
+  }
+
+  scrollToHome = () => {
+    scrollToComponent(this.Home, { offset: 0, align: 'top', duration: 1000})
+  }
+
+  scrollToPortfolio = () => {
+    scrollToComponent(this.Portfolio, { offset: 0, align: 'top', duration: 1000})
+  }
+
+  scrollToContact = () => {
+    scrollToComponent(this.Contact, { offset: 0, align: 'top', duration: 1000})
   }
 
   render() {
     return (
       <Container>
-        <section>
+        <section ref={(section) => { this.Home = section; }}>
           <Home scrollToAbout={this.scrollToAbout} />
         </section>
-        <Navbar />
+
+        <Navbar
+          scrollToHome={this.scrollToHome}
+          scrollToAbout={this.scrollToAbout}
+          scrollToPortfolio={this.scrollToPortfolio}
+          scrollToContact={this.scrollToContact}
+        />
+
         <section ref={(section) => { this.About = section; }}>
           <About />
         </section>
 
-        <Portfolio />
-        <Contact />
+        <section ref={(section) => { this.Portfolio = section; }}>
+          <Portfolio />
+        </section>
+
+        <section ref={(section) => { this.Contact = section; }}>
+          <Contact />
+        </section>
       </Container>
     );
   }

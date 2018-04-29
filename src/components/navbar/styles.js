@@ -12,6 +12,7 @@ const navButton = {
   margin: '20px',
   fontFamily: 'Raleway',
   fontSize: '2vh',
+  cursor: 'pointer'
 }
 
 const styles = {
