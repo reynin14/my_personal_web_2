@@ -8,15 +8,15 @@ const container = {
 };
 
 const header = {
-  fontFamily: 'Raleway',
-  fontSize: '5vh',
-  fontWeight: 'bold',
   top: '1vh',
+  font: '7vh Raleway',
+  textShadow: '2px 2px #b3b3b3',
 };
 
 const underline = {
   fontFamily: 'Raleway',
   fontSize: '5vh',
+  textShadow: '2px 2px #b3b3b3',
 }
 
 const styles = {

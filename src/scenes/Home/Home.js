@@ -10,9 +10,9 @@ const Home = ({scrollToAbout}) => {
     <div style={styles.container}>
       <div style={styles.text}>
         Hello, I'm <span style={styles.name}><b>Kevin Yonzon</b></span>.<br></br>
-        I'm a full-stack web developer.
+        I'm a full-stack web developer.<br></br>
+      <Button inverted onClick={scrollToAbout}><span style={styles.buttonText}>View My Work</span><span style={styles.icon}><Icon name='chevron down' /></span></Button>
       </div>
-      <Button inverted onClick={scrollToAbout}>View My Work<span style={styles.icon}><Icon name='chevron down' /></span></Button>
     </div>
   )
 };
