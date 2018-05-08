@@ -4,7 +4,7 @@ import styles from './styles';
 
 import { Header } from '../../components/header';
 import { Bio, TechSkills } from './components';
-import { AttributeIcon } from './components/attributeIcon';
+import { AttributesContainer } from './components/attributes';
 
 const About = () => {
   return(
@@ -13,9 +13,7 @@ const About = () => {
         title={'ABOUT'}
       />
       <div style={styles.infoContainer}>
-        <AttributeIcon />
-        <Bio />
-        <TechSkills />
+        <AttributesContainer />
       </div>
     </div>
   )
