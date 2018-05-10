@@ -4,6 +4,7 @@ const container = {
   justifyContent: 'center',
   alignItems: 'center',
   width: '18vw',
+  margin: '15px',
 }
 
 const keyAdjective = {
@@ -22,7 +23,10 @@ const description = {
 
 const mainAttributesContainer = {
   display: 'flex',
+  flexDirection: 'row',
+  width: '100vw',
   justifyContent: 'center',
+  paddingTop: '75px',
 }
 
 const styles = {

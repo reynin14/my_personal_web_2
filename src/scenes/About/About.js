@@ -3,8 +3,8 @@ import React from 'react';
 import styles from './styles';
 
 import { Header } from '../../components/header';
-import { Bio, TechSkills } from './components';
 import { AttributesContainer } from './components/attributes';
+import { BioAndSkillsContainer } from './components/bioAndSkills';
 
 const About = () => {
   return(
@@ -12,9 +12,8 @@ const About = () => {
       <Header
         title={'ABOUT'}
       />
-      <div style={styles.infoContainer}>
-        <AttributesContainer />
-      </div>
+      <AttributesContainer />
+      <BioAndSkillsContainer />
     </div>
   )
 }

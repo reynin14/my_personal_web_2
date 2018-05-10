@@ -8,31 +8,8 @@ const container = {
   paddingTop: '15vh',
 }
 
-const infoContainer = {
-  display: 'flex',
-  width: '85vh',
-  justifyContent: 'center',
-}
-
-const bio = {
-  display: 'flex',
-  textAlign: 'justify',
-  margin: '10px',
-  height: '40vh',
-  backgroundColor: 'yellow',
-}
-
-const techSkills = {
-  margin: '10px',
-  height: '40vh',
-  backgroundColor: 'yellow'
-}
-
 const styles = {
   container,
-  infoContainer,
-  bio,
-  techSkills,
 };
 
 export default styles;
