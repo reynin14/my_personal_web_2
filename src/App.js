@@ -56,6 +56,7 @@ class App extends Component {
         <section ref={(section) => { this.Contact = section; }}>
           <Contact />
         </section>
+        
       </Container>
     );
   }

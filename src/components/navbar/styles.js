@@ -4,7 +4,7 @@ const container = {
   top: 0,
   backgroundColor: '#ab15d1',
   width: '100vw',
-  zIndex: 1,
+  zIndex: 99,
   paddingLeft: '30px',
 }
 

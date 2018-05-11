@@ -5,7 +5,6 @@ const container = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  paddingTop: '15vh',
 }
 
 const styles = {

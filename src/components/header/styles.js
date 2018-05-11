@@ -4,7 +4,9 @@ const container = {
   justifyContent: 'center',
   alignItems: 'center',
   backgroundColor: 'yellow',
-  lineHeight: 1
+  lineHeight: 1,
+  marginTop: '80px',
+  marginBottom: '20px',
 };
 
 const header = {
