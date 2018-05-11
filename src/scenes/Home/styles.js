@@ -1,4 +1,4 @@
-import kyHome from './images/kyHome.JPG';
+import kyHome from './images/kyHomeReverse.JPG';
 
 const container = {
 	display: 'flex',

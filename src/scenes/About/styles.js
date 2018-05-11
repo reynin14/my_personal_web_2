@@ -1,5 +1,5 @@
 const container = {
-  height: '1200px',
+  height: '1100px',
   width: '100vw',
   backgroundColor: '#e0ae15',
   display: 'flex',
