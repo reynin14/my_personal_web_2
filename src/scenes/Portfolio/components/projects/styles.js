@@ -32,6 +32,7 @@ const projectImage = {
   alignItems: 'center',
   width: CONTAINER_WIDTH,
   height: CONTAINER_HEIGHT,
+  objectFit: 'contain',
 }
 
 const projectTitleContainer = {
@@ -41,7 +42,7 @@ const projectTitleContainer = {
   alignItems: 'center',
   width: CONTAINER_WIDTH,
   height: CONTAINER_HEIGHT,
-  backgroundColor: 'grey'
+  backgroundColor: 'white'
 }
 
 const projectTitle = {
@@ -49,15 +50,21 @@ const projectTitle = {
   font: 'Raleway',
   fontSize: '18pt',
   fontWeight: '900',
+  color: 'black',
 }
 
 const projectTech = {
   font: 'Raleway',
   fontsize: '12pt',
+  color: 'red',
 }
 
 const demoButton = {
   margin: '10px',
+}
+
+const buttonText = {
+  color: 'black'
 }
 
 const styles = {
@@ -69,6 +76,7 @@ const styles = {
   projectTitle,
   projectTech,
   demoButton,
+  buttonText,
 };
 
 export default styles;

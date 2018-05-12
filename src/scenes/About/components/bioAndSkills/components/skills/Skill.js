@@ -9,8 +9,6 @@ const Skill = ({ techName, proficiency }) => {
 
   const progressStyle = Object.assign({width: `${proficiencyCalculated}px`}, styles.progress);
 
-  debugger
-
   return (
     <div style={styles.soloSkillContainer}>
       <div style={styles.techName}>

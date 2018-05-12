@@ -1,5 +1,6 @@
 const skillsContainer = {
-  margin: '10px',
+  margin: '15px',
+  marginLeft: '50px',
 }
 
 const soloSkillContainer = {

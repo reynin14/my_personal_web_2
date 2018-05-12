@@ -1,12 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Image, Reveal, Button } from 'semantic-ui-react';
+import { Reveal, Button } from 'semantic-ui-react';
 
 import styles from './styles';
 
 import ProjectTitle from './ProjectTitle';
-import FlatironGram from './images/FlatironGram2.png'
 
 const ProjectSquare = ({ projectPicture, linkToDemo, projectName, projectTech }) => {
 
@@ -15,7 +14,7 @@ const ProjectSquare = ({ projectPicture, linkToDemo, projectName, projectTech })
       <div style={styles.projectSquareContainer}>
         <Reveal animated='small fade'>
           <Reveal.Content visible>
-            <img src={projectPicture} style={styles.projectImage} />
+            <img src={projectPicture} style={styles.projectImage} alt='Visible'/>
           </Reveal.Content>
           <Reveal.Content hidden>
             <ProjectTitle
@@ -26,7 +25,7 @@ const ProjectSquare = ({ projectPicture, linkToDemo, projectName, projectTech })
         </Reveal>
       </div>
       <div style={styles.demoButton}>
-        <a href={linkToDemo} target="_blank"><Button inverted color='black' size='medium'>Demo</Button></a>
+        <a href={linkToDemo} target="_blank"><Button basic inverted color='red' size='medium'><span style={styles.buttonText}>Demo</span></Button></a>
       </div>
     </div>
   )

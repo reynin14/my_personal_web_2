@@ -1,21 +1,31 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { Icon } from 'semantic-ui-react';
-
 import styles from './styles';
-import hexagon from './images/hexagon.png'
+import Hexagon from 'react-hexagon';
+
+import sample from './images/accessible-icon.svg'
 
 const Attribute = ({iconName, keyAdjective, description}) => {
   return (
     <div style={styles.container}>
-      <Icon name={iconName} size='huge' />
+      <div style={styles.hexagonContainer}>
+        <Hexagon
+          flatTop={true}
+          backgroundScale={1}
+          backgroundImage={sample}
+          style={styles.hexagon}
+        />
+      </div>
+
       <div style={styles.keyAdjective}>
         {keyAdjective}
       </div>
+
       <div style={styles.description}>
         {description}
       </div>
+
     </div>
   )
 }

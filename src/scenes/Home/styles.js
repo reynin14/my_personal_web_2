@@ -5,7 +5,6 @@ const container = {
 	flexDirection: 'column',
 	alignItems: 'center',
 	justifyContent: 'center',
-	backgroundColor: '#1ae4de',
 	height: '100vh',
 	width: '100vw',
 	backgroundImage: `url(${kyHome})`,

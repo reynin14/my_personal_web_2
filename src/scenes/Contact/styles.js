@@ -5,7 +5,6 @@ const container = {
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  height: '1200px',
   width: '100vw',
   backgroundImage: `url(${kyCrossing})`,
 	backgroundRepeat: 'no-repeat',

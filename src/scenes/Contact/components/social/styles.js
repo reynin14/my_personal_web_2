@@ -1,5 +1,8 @@
 const socialMediaContainer = {
   display: 'flex',
+  justifyContent: 'center',
+  
+  marginBottom: '20%'
 }
 
 const soloSocialContainer = {
@@ -11,7 +14,7 @@ const soloSocialContainer = {
   height: '100px',
   backgroundColor: '#ffffff',
   border: '2px solid',
-  margin: '5px',
+  margin: '25px',
 }
 
 const icon = {
@@ -29,10 +32,10 @@ const emailContainer = {
 
 const emailText = {
   fontFamily: 'Raleway',
-	fontSize: '6vh',
+	fontSize: '20pt',
 	lineHeight: '1',
 	padding: '10px',
-  color: 'white',
+  color: 'red',
   textShadow: '2px 2px black',
 }
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import styles from './styles';
 
-import BioContainer from './BioContainer';
+import { BioContainer } from './components/bio';
 import { SkillsContainer } from './components/skills';
 
 const BioAndSkillsContainer = () => {
