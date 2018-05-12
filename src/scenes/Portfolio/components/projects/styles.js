@@ -55,7 +55,7 @@ const projectTitle = {
 
 const projectTech = {
   font: 'Raleway',
-  fontsize: '12pt',
+  fontSize: '12pt',
   color: 'red',
 }
 
@@ -64,7 +64,10 @@ const demoButton = {
 }
 
 const buttonText = {
-  color: 'black'
+  font: 'Raleway',
+  fontSize: '12pt',
+  color: 'white',
+  fontWeight: '700',
 }
 
 const styles = {

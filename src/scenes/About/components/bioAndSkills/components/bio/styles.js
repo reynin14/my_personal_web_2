@@ -22,12 +22,16 @@ const caption = {
   font: 'Raleway',
   fontSize: '18pt',
   fontWeight: '900',
+  color: 'white',
+  textShadow: '2px 2px black'
 }
 
 const description = {
+  font: 'Raleway',
   margin: '13px',
   width: '350px',
   textAlign: 'center',
+  color: 'white'
 }
 
 const styles = {

@@ -12,7 +12,7 @@ const container = {
 
 const header = {
   top: '1vh',
-  font: '7vh Raleway',
+  font: '70px Raleway',
   color: PRIMARY_COLOR,
   textShadow: '2px 2px black',
 };

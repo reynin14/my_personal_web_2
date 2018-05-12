@@ -11,6 +11,8 @@ const keyAdjective = {
   font: 'Raleway',
   fontSize: '24pt',
   fontWeight: '900',
+  color: 'white',
+  textShadow: '2px 2px black'
 }
 
 const description = {
@@ -18,6 +20,7 @@ const description = {
   fontSize: '12pt',
   textAlign: 'center',
   fontWeight: 100,
+  color: 'white',
 }
 
 const mainAttributesContainer = {

@@ -27,7 +27,7 @@ const ProjectsContainer = () => {
       <ProjectSquare
         projectPicture={WiFinder}
         linkToDemo={'https://wifinder.surge.sh/'}
-        projectName={'FlatironGram'}
+        projectName={'NYC WiFinder'}
         projectTech={'React, Ruby On Rails'}
       />
       <ProjectSquare

@@ -3,7 +3,8 @@ const container = {
   justifyContent: 'center',
   alignItems: 'center',
   width: '75%',
-  margin: '20px',
+  marginTop: '5%',
+  marginBottom: '8%'
 }
 
 const styles = {
