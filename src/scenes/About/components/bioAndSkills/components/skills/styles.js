@@ -1,5 +1,6 @@
 const skillsContainer = {
   marginLeft: '40px',
+  paddingTop: '12px',
 }
 
 const soloSkillContainer = {
@@ -7,7 +8,7 @@ const soloSkillContainer = {
   width: '600px',
   height: '30px',
   backgroundColor: 'white',
-  margin: '20px',
+  margin: '22px',
 }
 
 const techName = {
@@ -23,7 +24,7 @@ const text = {
   font: 'Raleway',
   fontSize: '10 pt',
   fontWeight: '700',
-  color: 'red',
+  color: '#da0024',
 }
 
 const progress = {

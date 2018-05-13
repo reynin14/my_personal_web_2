@@ -34,7 +34,7 @@ const emailText = {
 	fontSize: '20pt',
 	lineHeight: '1',
 	padding: '5px',
-  color: 'red',
+  color: '#da0024',
   textShadow: '2px 2px black',
 }
 

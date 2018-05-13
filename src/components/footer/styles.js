@@ -13,7 +13,7 @@ const text = {
 }
 
 const subText = {
-  color: 'red',
+  color: '#da0024',
 }
 
 const styles = {

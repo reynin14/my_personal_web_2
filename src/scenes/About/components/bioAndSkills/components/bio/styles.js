@@ -23,7 +23,7 @@ const caption = {
   fontSize: '18pt',
   fontWeight: '900',
   color: 'white',
-  textShadow: '2px 2px black'
+  textShadow: '3px 3px #6b0011',
 }
 
 const description = {

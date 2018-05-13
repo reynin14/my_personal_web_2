@@ -12,28 +12,28 @@ const AttributesContainer = () => {
         <div>
           <Attribute
             iconName={'home'}
-            keyAdjective={'Fast'}
+            keyAdjective={'Dynamic'}
             description={'Fast load times and lag free interaction, my highest priority.'}
           />
         </div>
         <div>
           <Attribute
             iconName={'home'}
-            keyAdjective={'Fast'}
+            keyAdjective={'Enthusiastic'}
             description={'Fast load times and lag free interaction, my highest priority.'}
           />
         </div>
         <div>
           <Attribute
             iconName={'home'}
-            keyAdjective={'Fast'}
+            keyAdjective={'Driven'}
             description={'Fast load times and lag free interaction, my highest priority.'}
           />
         </div>
         <div>
           <Attribute
             iconName={'home'}
-            keyAdjective={'Fast'}
+            keyAdjective={'Ambitious'}
             description={'Fast load times and lag free interaction, my highest priority.'}
           />
         </div>

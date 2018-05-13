@@ -19,7 +19,7 @@ const BioContainer = () => {
         {'Who is this guy?'}
       </div>
       <div style={styles.description}>
-        {'I\'m the Front-End Developer for EyeCue Lab in Portland, OR.I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. Let\'s make something special.'}
+        {'I\'m a full-stack web developer currently living in Los Angeles County. When I\'m not coding, I like to work out at the gym, play games online, and drink boba.'}
       </div>
     </div>
   )

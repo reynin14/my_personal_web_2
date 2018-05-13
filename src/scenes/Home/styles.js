@@ -26,7 +26,7 @@ const text = {
 }
 
 const name = {
-	color: 'red',
+	color: '#da0024',
 }
 
 const icon = {

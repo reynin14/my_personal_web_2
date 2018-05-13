@@ -1,4 +1,4 @@
-const PRIMARY_COLOR = 'red'
+const PRIMARY_COLOR = '#da0024'
 const SHADOW = '3px 3px black'
 
 const container = {

@@ -2,21 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import styles from './styles';
-import Hexagon from 'react-hexagon';
 
-import sample from './images/accessible-icon.svg'
+import { Icon } from 'semantic-ui-react';
 
-const Attribute = ({iconName, keyAdjective, description}) => {
+const Attribute = ({ iconName, keyAdjective, description }) => {
   return (
     <div style={styles.soloAttributeContainer}>
-      <div style={styles.hexagonContainer}>
-        <Hexagon
-          flatTop={true}
-          backgroundScale={1}
-          backgroundImage={sample}
-          style={styles.hexagon}
-        />
-      </div>
+
+      <Icon name={iconName} size='massive' />
 
       <div style={styles.keyAdjective}>
         {keyAdjective}

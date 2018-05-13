@@ -25,7 +25,7 @@ const ProjectSquare = ({ projectPicture, linkToDemo, projectName, projectTech })
         </Reveal>
       </div>
       <div style={styles.demoButton}>
-        <a href={linkToDemo} target="_blank"><Button basic inverted color='red' size='medium'><span style={styles.buttonText}>Demo</span></Button></a>
+        <a href={linkToDemo} target="_blank"><Button basic inverted color='black' size='medium'><span style={styles.buttonText}>Demo</span></Button></a>
       </div>
     </div>
   )

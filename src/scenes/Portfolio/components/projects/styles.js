@@ -67,7 +67,7 @@ const demoButton = {
 const buttonText = {
   font: 'Raleway',
   fontSize: '12pt',
-  color: 'white',
+  color: '#da0024',
   fontWeight: '700',
 }
 

@@ -25,8 +25,9 @@ const keyAdjective = {
   font: 'Raleway',
   fontSize: '24pt',
   fontWeight: '900',
+  lineHeight: '1',
   color: 'white',
-  textShadow: '2px 2px black'
+  textShadow: '3px 3px #960018'
 }
 
 const description = {
