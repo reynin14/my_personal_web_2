@@ -12,7 +12,7 @@ import FlatironGram from './images/FlatironGram2.png'
 
 const ProjectsContainer = () => {
   return (
-    <Bounce bottom cascade>
+    <Bounce bottom cascade ssrReveal>
       <div style={styles.projectsContainer}>
         <div>
           <ProjectSquare

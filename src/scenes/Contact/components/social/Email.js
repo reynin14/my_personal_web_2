@@ -9,7 +9,7 @@ import SocialMedia from './SocialMedia';
 const Email = () => {
   return (
     <div style={styles.emailContainer}>
-      <Slide right>
+      <Slide right ssrReveal>
         <SocialMedia
           icon={emailIcon}
         />

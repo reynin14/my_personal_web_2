@@ -11,7 +11,7 @@ import instagramIcon from './images/instagramIcon2.jpeg';
 
 const SocialMediaContainer = () => {
   return (
-    <Roll bottom cascade>
+    <Roll bottom cascade ssrReveal>
       <div style={styles.socialMediaContainer}>
         <div>
           <SocialMedia

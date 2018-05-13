@@ -5,7 +5,7 @@ const container = {
 	flexDirection: 'column',
 	alignItems: 'center',
 	justifyContent: 'center',
-	height: '100vh',
+	height: '110vh',
 	width: '100vw',
 	backgroundImage: `url(${kyHome})`,
 	backgroundRepeat: 'no-repeat',

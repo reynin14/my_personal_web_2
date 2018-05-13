@@ -13,10 +13,6 @@ import { Contact } from './scenes/Contact';
 
 class App extends Component {
 
-  componentDidMount() {
-    scrollToComponent(this.About, { offset: 0, align: 'middle', duration: 500, ease:'inCirc'});
-  }
-
   scrollToAbout = () => {
     scrollToComponent(this.About, { offset: 0, align: 'top', duration: 1000})
   }
