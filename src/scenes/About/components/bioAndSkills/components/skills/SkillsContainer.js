@@ -55,7 +55,7 @@ const SkillsContainer = () => {
         <div>
           <Skill
             techName={'SQL'}
-            proficiency={80}
+            proficiency={75}
           />
         </div>
 
