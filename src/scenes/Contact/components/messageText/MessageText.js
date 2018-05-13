@@ -8,7 +8,7 @@ const MessageText = () => {
     <div style={styles.container}>
       <Pulse ssrReveal>
         <div style={styles.text}>
-          {'Currently looking for new challenges and would love to become a part of your team!'}
+          {'Currently looking for new opportunities and would love to become a part of your team!'}
         </div>
       </Pulse>
     </div>

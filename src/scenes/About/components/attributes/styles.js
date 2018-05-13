@@ -4,20 +4,20 @@ const mainAttributesContainer = {
   justifyContent: 'center',
   alignItems: 'center',
   flexWrap: 'wrap',
-  paddingTop: '60px',
+  paddingTop: '45px',
   width: '75%',
 }
 
 const soloAttributeContainer = {
   display: 'flex',
   flexDirection: 'column',
-  justifyContent: 'center',
   alignItems: 'center',
   marginLeft: '35px',
   marginRight: '35px',
-  marginTop: '30px',
+  marginTop: '20px',
   marginBottom: '10px',
-  width: '200px'
+  height: '300px',
+  width: '215px'
 }
 
 const keyAdjective = {

@@ -8,7 +8,7 @@ const container = {
   alignItems: 'center',
   lineHeight: 1,
   marginTop: '80px',
-  marginBottom: '20px',
+  marginBottom: '5px',
 };
 
 const header = {

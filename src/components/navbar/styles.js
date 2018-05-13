@@ -14,6 +14,7 @@ const navButton = {
   fontSize: '20px',
   cursor: 'pointer',
   color: 'white',
+  textShadow: '2px 2px #960018'
 }
 
 const styles = {

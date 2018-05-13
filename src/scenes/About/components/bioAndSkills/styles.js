@@ -4,7 +4,6 @@ const container = {
   alignItems: 'center',
   flexWrap: 'wrap',
   width: '75%',
-  marginTop: '3%',
   marginBottom: '8%'
 }
 

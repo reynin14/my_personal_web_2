@@ -17,7 +17,7 @@ const techName = {
   alignItems: 'center',
   width: '100px',
   height: '30px',
-  backgroundColor: '#2a2a2a',
+  backgroundColor: '#202020',
 }
 
 const text = {

@@ -11,30 +11,30 @@ const AttributesContainer = () => {
       <div style={styles.mainAttributesContainer}>
         <div>
           <Attribute
-            iconName={'home'}
+            iconName={'rocket'}
             keyAdjective={'Dynamic'}
-            description={'Fast load times and lag free interaction, my highest priority.'}
+            description={'Quick learner, always able to adapt myself to different situations.'}
           />
         </div>
         <div>
           <Attribute
-            iconName={'home'}
+            iconName={'lightning'}
             keyAdjective={'Enthusiastic'}
-            description={'Fast load times and lag free interaction, my highest priority.'}
+            description={'Consistently keeping up positive energy and outlook.'}
           />
         </div>
         <div>
           <Attribute
-            iconName={'home'}
+            iconName={'dashboard'}
             keyAdjective={'Driven'}
-            description={'Fast load times and lag free interaction, my highest priority.'}
+            description={'Will always put in the time and work necessary to achieve a goal.'}
           />
         </div>
         <div>
           <Attribute
-            iconName={'home'}
+            iconName={'warning sign'}
             keyAdjective={'Ambitious'}
-            description={'Fast load times and lag free interaction, my highest priority.'}
+            description={'Not shy when it comes to new challenges.'}
           />
         </div>
       </div>
