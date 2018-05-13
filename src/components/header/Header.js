@@ -7,16 +7,16 @@ import Slide from 'react-reveal/Slide';
 
 const Header = ({title}) => {
   return (
-    <div style={styles.container}>
-      <div style={styles.header}>
-        {title}
-      </div>
-      <Slide left>
+    <Slide left cascade ssrReveal>
+      <div style={styles.container}>
+        <div style={styles.header}>
+          {title}
+        </div>
         <div style={styles.underline}>
           {'//'}
         </div>
-      </Slide>
-    </div>
+      </div>
+    </Slide>
   )
 };
 

@@ -2,24 +2,24 @@ const container = {
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
-  marginTop: '12%',
-  marginBottom: '3%',
-  width: '75%'
+  backgroundColor: '#252525',
 }
 
 const text = {
-  textAlign: 'center',
-  fontFamily: 'Raleway',
-	fontSize: '30pt',
-	lineHeight: '1',
-	padding: '10px',
+  font: 'Raleway',
   color: 'white',
-  textShadow: '2px 2px black',
+  fontSize: '12pt',
+  margin: '40px',
+}
+
+const subText = {
+  color: 'red',
 }
 
 const styles = {
   container,
   text,
+  subText,
 };
 
 export default styles;

@@ -8,7 +8,7 @@ import sample from './images/accessible-icon.svg'
 
 const Attribute = ({iconName, keyAdjective, description}) => {
   return (
-    <div style={styles.container}>
+    <div style={styles.soloAttributeContainer}>
       <div style={styles.hexagonContainer}>
         <Hexagon
           flatTop={true}

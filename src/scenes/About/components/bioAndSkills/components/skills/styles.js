@@ -1,14 +1,13 @@
 const skillsContainer = {
-  margin: '15px',
-  marginLeft: '50px',
+  marginLeft: '40px',
 }
 
 const soloSkillContainer = {
   display: 'flex',
   width: '600px',
   height: '30px',
-  backgroundColor: '#dfdfdf',
-  margin: '5px',
+  backgroundColor: 'white',
+  margin: '20px',
 }
 
 const techName = {
@@ -17,18 +16,19 @@ const techName = {
   alignItems: 'center',
   width: '100px',
   height: '30px',
-  backgroundColor: '#a479f2',
+  backgroundColor: '#2a2a2a',
 }
 
 const text = {
   font: 'Raleway',
   fontSize: '10 pt',
   fontWeight: '700',
+  color: 'red',
 }
 
 const progress = {
   height: '30px',
-  backgroundColor: '#e72a9a',
+  backgroundColor: '#dfdfdf',
 }
 
 const percentage = {

@@ -16,7 +16,7 @@ const Skill = ({ techName, proficiency }) => {
       </div>
       <span style={progressStyle}></span>
       <div style={styles.percentage}>
-          {`${proficiency}%`}
+        {`${proficiency}%`}
       </div>
     </div>
   )

@@ -3,11 +3,13 @@ import scrollToComponent from 'react-scroll-to-component';
 
 import { Container } from './components/container';
 import { Navbar } from './components/navbar/';
+import { Footer } from './components/footer';
 
 import { Home } from './scenes/Home';
 import { About } from './scenes/About';
 import { Portfolio } from './scenes/Portfolio';
 import { Contact } from './scenes/Contact';
+
 
 class App extends Component {
 
@@ -56,7 +58,9 @@ class App extends Component {
         <section ref={(section) => { this.Contact = section; }}>
           <Contact />
         </section>
-        
+
+        <Footer />
+
       </Container>
     );
   }

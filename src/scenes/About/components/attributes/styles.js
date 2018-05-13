@@ -1,9 +1,23 @@
-const container = {
+const mainAttributesContainer = {
+  display: 'flex',
+  flexDirection: 'row',
+  justifyContent: 'center',
+  alignItems: 'center',
+  flexWrap: 'wrap',
+  paddingTop: '60px',
+  width: '75%',
+}
+
+const soloAttributeContainer = {
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  margin: '10px',
+  marginLeft: '35px',
+  marginRight: '35px',
+  marginTop: '30px',
+  marginBottom: '10px',
+  width: '200px'
 }
 
 const keyAdjective = {
@@ -23,14 +37,6 @@ const description = {
   color: 'white',
 }
 
-const mainAttributesContainer = {
-  display: 'flex',
-  flexDirection: 'row',
-  justifyContent: 'center',
-  paddingTop: '75px',
-  width: '75%',
-}
-
 const hexagonContainer = {
   height: '125px',
   width: '125px',
@@ -41,10 +47,10 @@ const hexagon = {
 }
 
 const styles = {
-  container,
+  mainAttributesContainer,
+  soloAttributeContainer,
   keyAdjective,
   description,
-  mainAttributesContainer,
   hexagonContainer,
   hexagon,
 }

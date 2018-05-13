@@ -6,7 +6,8 @@ const projectsContainer = {
   flexWrap: 'wrap',
   justifyContent: 'center',
   alignItems: 'center',
-  margin: '50px'
+  margin: '50px',
+  width: '85%'
 };
 
 const projectSquareMainContainer = {

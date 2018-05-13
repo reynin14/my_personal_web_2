@@ -3,8 +3,8 @@ const bioContainer = {
   flexDirection: 'column',
   justifyContent: 'center',
   alignItems: 'center',
-  margin: '15px',
-  marginRight: '50px',
+  marginRight: '40px',
+  marginBottom: '15px',
 }
 
 const hexagonContainer = {

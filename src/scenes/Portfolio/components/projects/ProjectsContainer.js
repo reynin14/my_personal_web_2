@@ -1,6 +1,7 @@
 import React from 'react';
 
 import styles from './styles';
+import Bounce from 'react-reveal/Bounce';
 
 import ProjectSquare from './ProjectSquare';
 
@@ -11,32 +12,42 @@ import FlatironGram from './images/FlatironGram2.png'
 
 const ProjectsContainer = () => {
   return (
-    <div style={styles.projectsContainer}>
-      <ProjectSquare
-        projectPicture={CoinSwap}
-        linkToDemo={'https://expo.io/@reynin14/mycurrencyconverter'}
-        projectName={'Coin Swap'}
-        projectTech={'React, React Native, Redux'}
-      />
-      <ProjectSquare
-        projectPicture={Fuggetaboutit}
-        linkToDemo={'http://fuggetaboutit.surge.sh/'}
-        projectName={'Fuggetaboutit'}
-        projectTech={'React, Redux'}
-      />
-      <ProjectSquare
-        projectPicture={WiFinder}
-        linkToDemo={'https://wifinder.surge.sh/'}
-        projectName={'NYC WiFinder'}
-        projectTech={'React, Ruby On Rails'}
-      />
-      <ProjectSquare
-        projectPicture={FlatironGram}
-        linkToDemo={'https://tranquil-sands-29270.herokuapp.com/'}
-        projectName={'FlatironGram'}
-        projectTech={'Ruby On Rails'}
-      />
-    </div>
+    <Bounce bottom cascade>
+      <div style={styles.projectsContainer}>
+        <div>
+          <ProjectSquare
+            projectPicture={CoinSwap}
+            linkToDemo={'https://expo.io/@reynin14/mycurrencyconverter'}
+            projectName={'Coin Swap'}
+            projectTech={'React, React Native, Redux'}
+          />
+        </div>
+        <div>
+          <ProjectSquare
+            projectPicture={Fuggetaboutit}
+            linkToDemo={'http://fuggetaboutit.surge.sh/'}
+            projectName={'Fuggetaboutit'}
+            projectTech={'React, Redux'}
+          />
+        </div>
+        <div>
+          <ProjectSquare
+            projectPicture={WiFinder}
+            linkToDemo={'https://wifinder.surge.sh/'}
+            projectName={'NYC WiFinder'}
+            projectTech={'React, Ruby On Rails'}
+          />
+        </div>
+        <div>
+          <ProjectSquare
+            projectPicture={FlatironGram}
+            linkToDemo={'https://tranquil-sands-29270.herokuapp.com/'}
+            projectName={'FlatironGram'}
+            projectTech={'Ruby On Rails'}
+          />
+        </div>
+      </div>
+    </Bounce>
   )
 };
 

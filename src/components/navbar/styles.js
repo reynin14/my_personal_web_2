@@ -11,7 +11,7 @@ const container = {
 const navButton = {
   margin: '20px',
   fontFamily: 'Raleway',
-  fontSize: '2vh',
+  fontSize: '20px',
   cursor: 'pointer',
   color: 'white',
 }

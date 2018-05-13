@@ -1,4 +1,4 @@
-import kyCrossing from './images/kyCrossing.JPG';
+import kyCrossing from './images/kyCrossing2.JPG';
 
 const container = {
   display: 'flex',
@@ -9,7 +9,7 @@ const container = {
   backgroundImage: `url(${kyCrossing})`,
 	backgroundRepeat: 'no-repeat',
 	backgroundSize: 'cover',
-	backgroundPosition: '50% 30%',
+	backgroundPosition: '0% 30%',
 }
 
 const styles = {

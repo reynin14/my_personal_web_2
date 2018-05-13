@@ -7,7 +7,9 @@ const container = {
   alignItems: 'center',
   width: '100vw',
   backgroundColor: '#b8b8b8',
-  backgroundImage: `url(${background})`
+  backgroundImage: `url(${background})`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
 };
 
 const styles = {
